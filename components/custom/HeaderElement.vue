@@ -9,7 +9,7 @@
                             <div class="header-left flex-20">
                                 <div class="logo">
                                     <n-link to="/">
-                                        <img :src="$router.options.base+'img/logo/brook-white2.png'" alt="Brook Logo">
+                                        <img :src="$router.options.base+'images/app/logo-white.svg'" alt="Brook Logo">
                                     </n-link>
                                 </div>
                             </div>

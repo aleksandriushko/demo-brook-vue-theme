@@ -22,6 +22,16 @@
                 </n-link>
             </li>
             <li class="lavel-1">
+                <n-link to="/press">
+                    <span>Press</span>
+                </n-link>
+            </li>
+            <li class="lavel-1">
+                <n-link to="/blog">
+                    <span>Blog</span>
+                </n-link>
+            </li>
+            <li class="lavel-1">
                 <n-link to="/contact-us">
                     <span>Contact Us</span>
                 </n-link>

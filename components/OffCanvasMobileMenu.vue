@@ -5,7 +5,7 @@
             <div class="mobileheader">
                 <div class="logo">
                     <n-link to="/">
-                        <img :src="$router.options.base+'img/logo/brook-black.png'" alt="brand logo">
+                        <img :src="$router.options.base+'images/app/logo-orange.svg'" alt="brand logo">
                     </n-link>
                 </div>
                 <a class="mobile-close" href="javascript:void(0)" @click="mobiletoggleClass('removeClass', 'show-mobile-menu')"></a>
@@ -20,8 +20,13 @@
 <script>
     export default {
         components: {
-            MobileNavigation: () => import('@/components/MobileNavigation'),
+            MobileNavigation: () => import('@/components/custom/MobileNavigation'),
         },
+
+        mounted () {
+            document.body.classList.add('template-color-5', 'template-font-1')
+        },
+
         methods: {
             // offcanvas menu close
             mobiletoggleClass(addRemoveClass, className) {

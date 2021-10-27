@@ -9,7 +9,7 @@
                                 <div class="hero-content">
                                     <h2 class="hero-title" v-html="slider.heading">{{ slider.heading }}</h2>
                                     <h5>{{ slider.subHeading }}</h5>
-                                    <n-link to="/" class="btn-essential">Learn More</n-link>
+                                    <n-link v-if="slider.id !== 1" to="/" class="btn-essential">Learn More</n-link>
                                 </div>
                             </div>
                         </div>
@@ -42,28 +42,22 @@
                 sliders: [
                     {
                         id: 1,
-                        heading: "A platform migration across 50 sites.",
-                        subHeading: "B&G Foods",
-                        bgImage: `${this.$router.options.base}images/slider/hero-slide-1.png`
+                        // heading: "A platform migration across 50 sites.",
+                        // subHeading: "B&G Foods",
+                        bgImage: `${this.$router.options.base}images/slider/hero-slide-5.jpeg`
                     },
                     {
                         id: 2,
                         heading: "The virtual show must go on",
                         subHeading: "Imperial Distributors",
-                        bgImage: `${this.$router.options.base}images/slider/hero-slide-2.png`
+                        bgImage: `${this.$router.options.base}images/slider/hero-slide-6.jpeg`
                     },
                     {
                         id: 3,
                         heading: "Creating vital spaces",
                         subHeading: "Sodexo",
-                        bgImage: `${this.$router.options.base}images/slider/hero-slide-3.png`
+                        bgImage: `${this.$router.options.base}images/slider/hero-slide-7.jpeg`
                     },
-                    {
-                        id: 4,
-                        heading: "Banking on a personalized experience",
-                        subHeading: "M&T Bank",
-                        bgImage: `${this.$router.options.base}images/slider/hero-slide-4.jpeg`
-                    }
                 ]
             }
         }
@@ -72,8 +66,8 @@
 
 <style lang="scss" scoped>
     .hero-essential-slide {
-        background-size: contain;
-        background-position: right;
+        background-size: cover;
+        // background-position: right;
 
         height: 650px;
         display: flex;
