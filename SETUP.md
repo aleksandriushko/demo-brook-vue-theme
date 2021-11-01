@@ -86,3 +86,35 @@ push new static files on GitHub
 ``` bash
 git push origin `git subtree split --prefix dist gh-pages`:gh-pages --force
 ```
+
+## Created pages and css edits
+created a global style file - assets/scss/main.scss in layouts/default.vue 
+added menu items for header navigation - components/custom/Navigation.vue 
+
+### added brands for "About Us" page and added content
+created component - components/custom/Brands.vue
+added team members in file - pages/about-us.vue 
+uploaded images to team members to folder - static/images/about-us/
+uploaded brand images to folder - static/images/brands/
+
+### Mobile navigation
+updated header mobile files - components/HeaderForOffCanvas.vue
+                            - components/HeaderForOffCanvasBlack.vue 
+                            - components/OffCanvasMobileMenu.vue 
+created component for menu list - components/custom/MobileNavigation.vue 
+
+### Blog page, Blog details page
+created blog page - pages/blog/index.vue
+created component for list item - components/custom/BlogPostFour.vue 
+updated detail blog page - pages/blog/_id.vue 
+uploaded images - static/images/blog/blog-1.jpeg 
+
+### Press page
+created press page - pages/press.vue 
+
+### Add logos
+uploaded logo images to folder - static/images/app/
+changed logo images in files - components/custom/HeaderElement.vue 
+                             - components/custom/HeaderBlack.vue 
+                             - components/custom/HeaderAbout.vue 
+
