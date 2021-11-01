@@ -7,7 +7,7 @@ run command
 $ npm install
 ```
 
-## add .nuxt folder to .gitignore 
+## added .nuxt folder to .gitignore 
 after installing npm, nuxt.js generated service files that are located in the .nuxt folder. There is no need to track changes in this folder. This folder has been added to .gitignore.
 
 ## set home-start-up template
@@ -41,7 +41,7 @@ then need to activate the gh-pages branch on the github<br />
 3) Click on Source > gh-pages - https://prnt.sc/1w8vekx<br />
 and click save
 
-## add content for Home, About Us, Services, Portfolio, Contact
+## Added content for Home, About Us, Services, Portfolio, Contact
 ### create files and upload images:
 create pages:<br />
 /pages/about-us.vue<br />
@@ -113,10 +113,12 @@ uploaded images - static/images/blog/blog-1.jpeg
 ### Press page
 created press page - pages/press.vue 
 
-### Add logos
+### Added logos
 uploaded logo images to folder - static/images/app/<br />
 changed logo images in files<br />
     - components/custom/HeaderElement.vue <br />
     - components/custom/HeaderBlack.vue <br />
     - components/custom/HeaderAbout.vue 
 
+### Added images for the press page
+uploaded images to folder - static/images/press/
