@@ -2,10 +2,10 @@
     <div class="hero-essential-area swiper-arrow-hover">
         <swiper :options="swiperOption">
             <div class="swiper-slide" v-for="slider in sliders" :key="slider.id">
-                <div class="hero-essential-slide bg-cover slider-right-bg" :style="{backgroundImage: `url(${slider.bgImage})`}">
+                <div class="hero-essential-slide bg-cover" :style="{backgroundImage: `url(${slider.bgImage})`}">
                     <div class="container">
                         <div class="row">
-                            <div class="col-6 slider-right-bg">
+                            <div class="col-6">
                                 <div class="hero-content">
                                     <h2 class="hero-title" v-html="slider.heading">{{ slider.heading }}</h2>
                                     <h5>{{ slider.subHeading }}</h5>
@@ -130,19 +130,5 @@
                 left: auto;
             }
         }
-    }
-    .slider-right-bg:after {
-        content: '';
-        height: 140vh;
-        max-height: 1060px;
-        margin-top: -25px;
-        width: 22vh;
-        max-width: 180px;
-        background-image: url(/demo-brook-vue-theme/images/app/slider-right-bg.svg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        left: 47%;
-        position: absolute;
-        z-index: 2;
     }
 </style>
