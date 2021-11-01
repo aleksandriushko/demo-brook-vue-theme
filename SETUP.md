@@ -104,9 +104,9 @@ updated header mobile files - components/HeaderForOffCanvas.vue
 created component for menu list - components/custom/MobileNavigation.vue 
 
 ### Blog page, Blog details page
-created blog page - pages/blog/index.vue
-created component for list item - components/custom/BlogPostFour.vue 
-updated detail blog page - pages/blog/_id.vue 
+created blog page - pages/blog/index.vue\
+created component for list item - components/custom/BlogPostFour.vue__
+updated detail blog page - pages/blog/_id.vue<br />
 uploaded images - static/images/blog/blog-1.jpeg 
 
 ### Press page
