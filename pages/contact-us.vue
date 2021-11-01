@@ -19,7 +19,7 @@
 <script>
     export default {
         components: {
-            HeaderElement: () => import('@/components/HeaderBlack'),
+            HeaderElement: () => import('@/components/custom/HeaderBlack'),
             OffCanvasMobileMenu: () => import('@/components/OffCanvasMobileMenu'),
             SearchPopup: () => import('@/components/SearchPopup'),
             ContactUsBreadcrumb: () => import('@/components/custom/ContactUsBreadcrumb'),
