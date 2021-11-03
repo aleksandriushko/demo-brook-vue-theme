@@ -302,7 +302,7 @@
     
     export default {
         components: {
-            HeaderBlack: () => import('@/components/HeaderBlack'),
+            HeaderBlack: () => import('@/components/custom/HeaderBlack'),
             OffCanvasMobileMenu: () => import('@/components/OffCanvasMobileMenu'),
             SearchPopup: () => import('@/components/SearchPopup'),
             BlogSidebar: () => import('@/components/BlogSidebar'),
