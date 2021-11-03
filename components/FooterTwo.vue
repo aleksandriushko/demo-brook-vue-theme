@@ -1,76 +1,71 @@
 <template>
     <footer class="page-footer bg_color--3 pl--150 pr--150 pl_lg--30 pr_lg--30 pl_md--30 pr_md--30 pl_sm--5 pr_sm--5">
         <!-- Start Footer Top Area -->
-        <div class="bk-footer-inner pt--150 pb--30 pt_sm--100">
+        <div class="bk-footer-inner pt--150 pt_sm--100">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-sm-6">
                         <div class="footer-widget text-var--2">
                             <div class="logo">
                                 <n-link to="">
-                                    <img :src="$router.options.base+'img/logo/brook-white2.png'" alt="brand logo">
+                                    <img :src="$router.options.base+'images/app/logo-white.svg'" alt="brand logo">
                                 </n-link>
                             </div>
                             <div class="footer-inner">
-                                <p>Brook is a multi-purpose WordPress theme for big and small-sized businesses. Enjoy the theme's original design, functional features & responsive layouts.</p>
+                                <p>Yolo is a creative agency that helps businesses grow by creating brand experiences with soul. We take inspiration from film, art, music and sports and turn it into marketing that makes an impact.</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-2 col-sm-6 mt_mobile--40">
                         <div class="footer-widget text-var--2 menu--about">
-                            <h2 class="widgettitle">About us</h2>
+                            <h2 class="widgettitle">Learn more</h2>
                             <div class="footer-menu">
                                 <ul class="ft-menu-list bk-hover">
                                     <li>
-                                        <n-link to="/about-us-01">About Us</n-link>
+                                        <n-link to="/">Home</n-link>
                                     </li>
                                     <li>
-                                        <n-link to="/team-grid">Team</n-link>
+                                        <n-link to="/about-u">About Us</n-link>
                                     </li>
                                     <li>
-                                        <n-link to="/career">Career</n-link>
+                                        <n-link to="/services">Services</n-link>
                                     </li>
                                     <li>
-                                        <n-link to="/services-classic">Services</n-link>
+                                        <n-link to="/portfolio">Portfolio</n-link>
                                     </li>
                                     <li>
-                                        <n-link to="/contact-us-modern">Contact</n-link>
+                                        <n-link to="/press">Press</n-link>
+                                    </li>
+                                    <li>
+                                        <n-link to="/blog">Blog</n-link>
+                                    </li>
+                                    <li>
+                                        <n-link to="/contact-us">Contact Us</n-link>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-
                     <div class="col-lg-3 col-sm-6 mt_md--40 mt_sm--40">
                         <div class="footer-widget text-var--2 menu--contact">
                             <h2 class="widgettitle">Contact</h2>
                             <div class="footer-address">
                                 <div class="bk-hover">
-                                    <p>Your address goes here <br> Vacaville 10010, USA</p>
-                                    <p>
-                                        <a href="mailto:info@yourdomain.com">info@yourdomain.com</a>
+                                    <p><strong>Atlanta</strong></p>
+                                    <p class="fw-200">
+                                        4279 Roswell Rd NE<br>
+                                        STE 208-194<br>
+                                        Atlanta, GA 30342<br>
+                                        678.590.0834
                                     </p>
-                                    <p>
-                                        <a href="tel:0123456789">0123456789</a>
+                                    <p class="mt--10"><strong>Cleveland</strong></p>
+                                    <p class="fw-200">
+                                        13500 Pearl Road<br>
+                                        Suite 139-344<br>
+                                        Strongsville, OH 44136<br>
+                                        216.352.6768
                                     </p>
-                                </div>
-                                <div class="social-share social--transparent text-white">
-                                    <a href="https://www.facebook.com/" target="_blank">
-                                        <i class="fab fa-facebook"></i>
-                                    </a>
-                                    <a href="https://twitter.com/" target="_blank">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                    <a href="https://www.instagram.com/" target="_blank">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-                                    <a href="https://dribbble.com/" target="_blank">
-                                        <i class="fab fa-dribbble"></i>
-                                    </a>
-                                    <a href="https://www.pinterest.com/" target="_blank">
-                                        <i class="fab fa-pinterest"></i>
-                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -102,6 +97,23 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="social-share social--transparent text-white mt--40">
+                                <a href="https://www.facebook.com/" target="_blank">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                                <a href="https://twitter.com/" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="https://www.instagram.com/" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="https://dribbble.com/" target="_blank">
+                                    <i class="fab fa-dribbble"></i>
+                                </a>
+                                <a href="https://www.pinterest.com/" target="_blank">
+                                    <i class="fab fa-pinterest"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -116,21 +128,21 @@
                     <div class="col-md-6">
                         <div class="copyright-left text-md-left text-center">
                             <ul class="bk-copyright-menu d-flex bk-hover justify-content-center justify-content-md-start flex-wrap flex-sm-nowrap">
-                                <li>
-                                    <n-link to="/blog-creative">Our Blogs</n-link>
+                                <li class="d-flex">
+                                    <n-link to="/blog">Our Blogs</n-link>
                                 </li>
-                                <li>
-                                    <n-link to="/portfolio/portfolio-grid-boxed">Latest Projects</n-link>
+                                <li class="d-flex">
+                                    <n-link to="/portfolio">Latest Projects</n-link>
                                 </li>
-                                <li>
-                                    <n-link to="/contact-us-modern">Contact Us</n-link>
+                                <li class="d-flex">
+                                    <n-link to="/contact-us">Contact Us</n-link>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="copyright-right text-md-right text-center">
-                            <p>&copy; 2021 <b>Brook</b> Made with <i class="fa fa-heart text-danger"></i> by <a href="https://hasthemes.com/"><b>HasThemes</b></a></p>
+                            <p>@2021 Digital Yalo, All rights reserved</p>
                         </div>
                     </div>
                 </div>
